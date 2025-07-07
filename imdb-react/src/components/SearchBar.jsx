@@ -64,7 +64,7 @@ export default function SearchBar({
           if (page !== 1) {
             setPage(1)
           } else {
-            // Si ya estamos en página 1, forzamos búsqueda manual
+            
             fetchMovies()
           }
         }}
